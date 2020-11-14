@@ -1,0 +1,11 @@
+{
+    
+    "iconDefinitions": {
+      "osbExtension": {
+        "iconPath": "./images/fileIcon.svg"
+      }
+    },
+    "fileNames": {
+        "osb": "osbExtension"
+    }
+  }

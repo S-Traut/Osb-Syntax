@@ -1,0 +1,33 @@
+{
+    "name": "osb",
+    "displayName": "Osb!Syntax",
+    "description": "A syntax and auto-completion for .osb files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "main": "extension.js",
+    "activationEvents": [
+        "onLanguage:osb"   
+    ],
+    "contributes": {
+        "commands":[{
+            "command": "osb.Hello",
+            "title": "Say Hello"    
+        }],
+        "languages": [{
+            "id": "osb",
+            "aliases": ["Osu!Storyboard language", "osb"],
+            "extensions": [".osb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "osb",
+            "scopeName": "source.osb",
+            "path": "./syntaxes/osb.tmLanguage.json"
+        }]
+    }
+}

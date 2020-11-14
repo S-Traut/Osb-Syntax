@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Osu!Storyboard language",
+	"patterns": [
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#origins"
+		},
+		{
+			"include": "#sections"
+		}
+	],
+	"repository": {
+		"functions": {
+			"patterns": [{
+				"name": "entity.name.function.osb",
+				"match": "\\b(F|S|M|MX|MY)\\b"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "entity.name.type.osb",
+				"match": "\\b(Events|Foreground|Background|Overlay|Pass|Fail)\\b"
+			}]
+		},
+		"origins": {
+			"patterns": [{
+				"name": "variable.osb",
+				"match": "\\b(CentreLeft|Centre|CentreRight|BottomLeft|BottomCentre|BottomRight|TopLeft|TopCentre|TopRight)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.osb",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.osb",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"name": "constant.numeric.osb",
+			"match": "(?<!\\w)\\.?\\d(?:(?:[0-9a-zA-Z_\\.]|')|(?<=[eEpP])[+-])*"
+		},
+		"variables": {
+			"name": "variable.osb",
+			"match": "\\$[A-Za-z_]+"
+		},
+		"comments": {
+			"name": "comment.osb",
+			"match": "\/\/.+"
+		},
+		"sections": {
+			"name": "entity.name.tag.osb",
+			"match": "\\b(Sprite|Animation)\\b"
+		}
+	},
+	"scopeName": "source.osb"
+}
