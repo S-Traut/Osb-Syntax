@@ -1,9 +1,9 @@
 {
     "name": "osb-syntax",
-    "displayName": "Osb!Syntax",
-    "description": "A syntax and auto-completion for .osb files",
-    "version": "0.0.2",
-    "publisher": "PNCreation",
+    "displayName": "osb!Syntax",
+    "description": "Syntax and auto-completion tool for osu .osb files",
+    "version": "0.0.3",
+    "publisher": "OSBTT",
     "repository": {
         "type": "git",
         "url": "https://github.com/S-Traut/Osb-Syntax"
