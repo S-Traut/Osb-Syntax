@@ -20,10 +20,6 @@
         "onLanguage:osb"   
     ],
     "contributes": {
-        "commands":[{
-            "command": "osb.Hello",
-            "title": "Say Hello"    
-        }],
         "languages": [{
             "id": "osb",
             "aliases": ["Osu!Storyboard language", "osb"],
