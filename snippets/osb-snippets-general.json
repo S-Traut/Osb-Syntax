@@ -1,0 +1,44 @@
+{
+	"osb!CreateSprite": {
+		"prefix": "CreateSprite",
+		"body": [
+			"Sprite,${1:Layer},${2:Origin},\"${3:Path}\",${4:PositionX},${5:PositionY}",
+			" $0"
+		],
+		"description": "Generates a new Sprite in your storyboard!"
+	},
+	"osb!CreateSpriteCentre": {
+		"prefix": "CreateSprite:Centre",
+		"body": [
+			"Sprite,${1:Layer},${2:Origin},\"${3:Path}\",320,240",
+			" $0"
+		],
+		"description": "Generates a new Sprite in your storyboard and set the position in the center of your screen."
+	},
+	"osb!CreateSpriteFast": {
+		"prefix": "CreateSprite:Fast",
+		"body": [
+			"Sprite,Background,Centre,\"${1:Path}\",320,240",
+			" F,0,${2:StartTime},${3:EndTime},0,1",
+			" F,0,${4:StartTime},${5:EndTime},1,0",
+			"$0"
+		],
+		"description": "Generates a new Sprite with some basic parameters, it's faster!"
+	},
+	"osb!CreateAnimation": {
+		"prefix": "CreateAnimation",
+		"body": [
+			"Animation,${1:Layer},${2:Origin},\"${3:Path}\",${4:PosX},${5:PosY},${6:FrameCount},${7:FrameDelay},${8:LoopType}",
+			" $0"
+		],
+		"description": "Generates a new animation"
+	},
+	"osb!CreateLoop": {
+		"prefix": "CreateLoop",
+		"body": [
+			"L,${1:StartTime},${2:LoopCount}",
+			" $0"
+		],
+		"description": "Generates a new animation"
+	}
+}

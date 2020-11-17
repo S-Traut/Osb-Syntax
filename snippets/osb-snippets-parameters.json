@@ -1,0 +1,107 @@
+{
+    "osb!MakeFade": {
+        "prefix": "Fade",
+        "body": [
+            "F,0,${1:StartTime},${2:EndTime},${3:StartValue},${4:EndValue}",
+            "$0"
+        ],
+        "description": "Modify the opacity of your sprite."
+    },
+    "osb!MakeFadeIn": {
+        "prefix": "Fade:In",
+        "body": [
+            "F,0,${1:StartTime},${2:EndTime},0,1",
+            "$0"
+        ],
+        "description": "Generates a fade with 0 -> 1 opacity."
+    },
+    "osb!MakeFadeOut": {
+        "prefix": "Fade:Out",
+        "body": [
+            "F,0,${1:StartTime},${2:EndTime},1,0",
+            "$0"
+        ],
+        "description": "Generates a fade with 1 -> 0 opacity."
+    },
+    "osb!MakeFadeInOut": {
+        "prefix": "Fade:InOut",
+        "body": [
+            "F,0,${1:StartTime},${2:EndTime},0,${5:FadeValue}",
+            "F,0,${3:StartTime},${4:EndTime},${5:FadeValue},0",
+            "$0"
+        ],
+        "description": "Make your opacity fades IN and OUT."
+    },
+    "osb!MakeScale": {
+        "prefix": "Scale",
+        "body": [
+            "S,0,${2:StartTime},${3:EndTime},${4:StartValue},${5:EndValue}",
+            "$0"
+        ],
+        "description": "Modify the scale of your sprite."
+    },
+    "osb!MakeScaleVec": {
+        "prefix": "ScaleVec",
+        "body": [
+            "V,0,${2:StartTime},${3:EndTime},${4:StartX},${5:StartY},${6:EndX},${7:EndY}",
+            "$0"
+        ],
+        "description": "Modify the scale of your sprite in X and Y axes."
+    },
+    "osb!MakeMove": {
+        "prefix": "Move",
+        "body": [
+            "M,0,${1:StartTime},${2:EndTime},${3:StartX},${4:StartY},${5:EndX},${6:EndY}",
+            "$0"
+        ],
+        "description": "Make your sprite move in any axes."
+    },
+    "osb!MakeMoveX": {
+        "prefix": "MoveX",
+        "body": [
+            "MX,0,${1:StartTime},${2:EndTime},${3:StartValue},${4:EndValue}",
+            "$0"
+        ],
+        "description": "Make your sprite move in the X axis."
+    },
+    "osb!MakeMoveY": {
+        "prefix": "MoveY",
+        "body": [
+            "MY,0,${1:StartTime},${2:EndTime},${3:StartValue},${4:EndValue}",
+            "$0"
+        ],
+        "description": "Make your sprite move in the Y axis."
+    },
+    "osb!MakeColor": {
+        "prefix": "Color",
+        "body": [
+            "C,0,${1:StartTime},${2:EndTime},${3:StartRed},${4:StartGreen},${5:StartBlue},${6:EndRed},${7:EndGreen},${8:EndBlue}",
+            "$0"
+        ],
+        "description": "Change the color of your sprite!"
+    },
+    "osb!MakeRotate": {
+        "prefix": "Rotate",
+        "body": [
+            "R,0,${1:StartTime},${2:EndTime},${3:StartValue},${4:EndValue}",
+            "$0"
+        ],
+        "description": "This wil make your sprite rotate."
+    },
+    "osb!MakeFlipH": {
+        "prefix": "FlipH",
+        "body": [
+            "P,0,${1:StartTime},${2:EndTime},H",
+            "$0"
+        ],
+        "description": "This wil flip your sprite in the Horizontal axis."
+    },
+    "osb!MakeFlipV": {
+        "prefix": "FlipV",
+        "body": [
+            "P,0,${1:StartTime},${2:EndTime},V",
+            "$0"
+        ],
+        "description": "This wil flip your sprite in the Vertical axis."
+    }
+}

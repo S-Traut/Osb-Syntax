@@ -1,0 +1,247 @@
+{
+	"osb!EasingLinear": {
+		"prefix": "Ease.Linear",
+		"body": [
+			"0"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOut": {
+		"prefix": "Ease.Out",
+		"body": [
+			"1"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingIn": {
+		"prefix": "Ease.In",
+		"body": [
+			"2"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInQuad": {
+		"prefix": "Ease.InQuad",
+		"body": [
+			"3"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutQuad": {
+		"prefix": "Ease.OutQuad",
+		"body": [
+			"4"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutQuad": {
+		"prefix": "Ease.InOutQuad",
+		"body": [
+			"5"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInCubic": {
+		"prefix": "Ease.InCubic",
+		"body": [
+			"6"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutCubic": {
+		"prefix": "Ease.OutCubic",
+		"body": [
+			"7"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutCubic": {
+		"prefix": "Ease.InOutCubic",
+		"body": [
+			"8"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInQuart": {
+		"prefix": "Ease.InQuart",
+		"body": [
+			"9"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutQuart": {
+		"prefix": "Ease.OutQuart",
+		"body": [
+			"10"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutQuart": {
+		"prefix": "Ease.InOutQuart",
+		"body": [
+			"11"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInQuint": {
+		"prefix": "Ease.InQuint",
+		"body": [
+			"12"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutQuint": {
+		"prefix": "Ease.OutQuint",
+		"body": [
+			"13"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutQuint": {
+		"prefix": "Ease.InOutQuint",
+		"body": [
+			"14"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInSine": {
+		"prefix": "Ease.InSine",
+		"body": [
+			"15"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutSine": {
+		"prefix": "Ease.OutSine",
+		"body": [
+			"16"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutSine": {
+		"prefix": "Ease.InOutSine",
+		"body": [
+			"17"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInExpo": {
+		"prefix": "Ease.InExpo",
+		"body": [
+			"18"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutExpo": {
+		"prefix": "Ease.OutExpo",
+		"body": [
+			"19"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutExpo": {
+		"prefix": "Ease.InOutExpo",
+		"body": [
+			"20"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInCirc": {
+		"prefix": "Ease.InCirc",
+		"body": [
+			"21"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutCirc": {
+		"prefix": "Ease.OutCirc",
+		"body": [
+			"22"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutCirc": {
+		"prefix": "Ease.InOutCirc",
+		"body": [
+			"23"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInElastic": {
+		"prefix": "Ease.InElastic",
+		"body": [
+			"24"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutElastic": {
+		"prefix": "Ease.OutElastic",
+		"body": [
+			"25"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutElasticHalf": {
+		"prefix": "Ease.OutElasticHalf",
+		"body": [
+			"26"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutElasticQuarter": {
+		"prefix": "Ease.OutElasticQuarter",
+		"body": [
+			"27"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutElastic": {
+		"prefix": "Ease.InOutElastic",
+		"body": [
+			"28"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInBack": {
+		"prefix": "Ease.InBack",
+		"body": [
+			"29"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutBack": {
+		"prefix": "Ease.OutBack",
+		"body": [
+			"30"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutBack": {
+		"prefix": "Ease.InOutBack",
+		"body": [
+			"31"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInBounce": {
+		"prefix": "Ease.InBounce",
+		"body": [
+			"32"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingOutBounce": {
+		"prefix": "Ease.OutBounce",
+		"body": [
+			"33"
+		],
+		"description": "https://easings.net/"
+	},
+	"osb!EasingInOutBounce": {
+		"prefix": "Ease.InOutBounce",
+		"body": [
+			"34"
+		],
+		"description": "https://easings.net/"
+	}
+}

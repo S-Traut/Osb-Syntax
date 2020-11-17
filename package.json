@@ -2,7 +2,7 @@
     "name": "osb-syntax",
     "displayName": "osb!Syntax",
     "description": "Syntax and auto-completion tool for osu .osb files",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "publisher": "OSBTT",
     "repository": {
         "type": "git",
@@ -13,23 +13,58 @@
         "vscode": "^1.51.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "main": "extension.js",
     "activationEvents": [
-        "onLanguage:osb"   
+        "onLanguage:osb"
     ],
+    "dependencies": {
+        "vscode": "^1.1.37"
+    },
     "contributes": {
-        "languages": [{
-            "id": "osb",
-            "aliases": ["Osu!Storyboard language", "osb"],
-            "extensions": [".osb"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "osb",
-            "scopeName": "source.osb",
-            "path": "./syntaxes/osb.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "osb",
+                "aliases": [
+                    "Osu!Storyboard language",
+                    "osb"
+                ],
+                "extensions": [
+                    ".osb"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "osb",
+                "scopeName": "source.osb",
+                "path": "./syntaxes/osb.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "osb",
+                "path": "./snippets/osb-snippets-general.json"
+            },
+            {
+                "language": "osb",
+                "path": "./snippets/osb-snippets-easings.json"
+            },
+            {
+                "language": "osb",
+                "path": "./snippets/osb-snippets-parameters.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/mocha": "^8.0.3",
+        "mocha": "^8.1.1",
+        "@types/node": "^12.12.0",
+        "eslint": "^6.4.0",
+        "@typescript-eslint/parser": "^2.3.0",
+        "typescript": "^4.0.2"
     }
 }

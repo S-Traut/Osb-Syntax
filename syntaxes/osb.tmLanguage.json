@@ -31,7 +31,7 @@
 		"functions": {
 			"patterns": [{
 				"name": "entity.name.function.osb",
-				"match": "\\b(F|S|M|MX|MY)\\b"
+				"match": "\\b(F|S|M|MX|MY|V|P|C|R|L)\\b"
 			}]
 		},
 		"types": {
@@ -43,7 +43,7 @@
 		"origins": {
 			"patterns": [{
 				"name": "variable.osb",
-				"match": "\\b(CentreLeft|Centre|CentreRight|BottomLeft|BottomCentre|BottomRight|TopLeft|TopCentre|TopRight)\\b"
+				"match": "\\b(CentreLeft|Centre|CentreRight|BottomLeft|BottomCentre|BottomRight|TopLeft|TopCentre|TopRight|LoopOnce|LoopForever)\\b"
 			}]
 		},
 		"strings": {
