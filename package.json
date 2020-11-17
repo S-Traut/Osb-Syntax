@@ -2,7 +2,7 @@
     "name": "osb-syntax",
     "displayName": "osb!Syntax",
     "description": "Syntax and auto-completion tool for osu .osb files",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "publisher": "OSBTT",
     "repository": {
         "type": "git",
